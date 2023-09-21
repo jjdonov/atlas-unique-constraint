@@ -7,5 +7,3 @@ CREATE TABLE "auth"."email_token" (
   "user_id" integer NOT NULL,
   PRIMARY KEY ("id")
 );
--- Create index "email_token_user_id_unique" to table: "email_token"
-CREATE UNIQUE INDEX "email_token_user_id_unique" ON "auth"."email_token" ("user_id");
