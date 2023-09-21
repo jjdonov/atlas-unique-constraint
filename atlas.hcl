@@ -1,5 +1,5 @@
 env "poc" {
-    src = "file://poc.hcl"
+    src = "file://poc.sql"
     url = "postgres://user:pass@localhost:5455?sslmode=disable"
     dev = "docker://postgres/13"
 
