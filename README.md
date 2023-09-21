@@ -1,5 +1,6 @@
 ## Issue Reproduction
 
+This is a reproduction of [Atlas #2107](https://github.com/ariga/atlas/issues/2107)
 This reproduction has been tested against:
 
 ```
