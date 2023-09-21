@@ -30,7 +30,7 @@ atlas schema inspect \
 --env poc \
 --format '{{sql . "  "}}' >! poc.sql
 ```
-3. **Note** that the schame contains the unique index, but not the constraint!
+3. ❗**Note** that the schame contains the unique index, but not the constraint ❗
 4. Generate the baseline ...
 ```
  atlas migrate diff --env poc baseline
