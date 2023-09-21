@@ -1,0 +1,12 @@
+version: "3.5"
+services:
+  postgres:
+    image: postgres
+    ports:
+      - "5455:5432"
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+    container_name: atlas-test-db
+    volumes: 
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
